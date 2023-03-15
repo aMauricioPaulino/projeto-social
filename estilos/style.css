@@ -39,5 +39,19 @@ iframe#screen{
     top: 80px;
     width: 269px;
     height: 471px;
+}
 
+section#social-media img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000073;
+    box-sizing: border-box; /*para a bordar fazer só parte da caixa e não se expandir para as outras*/
+}
+
+section#social-media img:hover{
+    border: 2px solid #ffffff;
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 10px #000000;
+    transition: transform .2s, border .5s;
 }
