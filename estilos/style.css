@@ -21,7 +21,6 @@ body{
 main{
     height: 100vh;
     position: relative;
-   
 }
 
 section#telephone{
@@ -32,4 +31,13 @@ section#telephone{
     left: 50%;
     transform: translate(-50%, -50%);
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#screen{
+    position: relative;
+    left: 23px;
+    top: 80px;
+    width: 269px;
+    height: 471px;
+
 }
